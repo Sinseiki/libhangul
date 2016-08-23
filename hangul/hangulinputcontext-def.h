@@ -385,6 +385,22 @@ static const HangulKeyboard hangul_keyboard_3shin_p_yet = {
     &hangul_combination_full
 };
 
+static const HangulKeyboard hangul_keyboard_3shin_p2 = {
+    HANGUL_KEYBOARD_TYPE_JASO_SHIN,
+    "3shin-p2",
+    N_("Sebeolsik Shin P2"),
+    (ucschar*)hangul_keyboard_table_3shin_p2,
+    &hangul_combination_default_3
+};
+
+static const HangulKeyboard hangul_keyboard_3shin_p2_yet = {
+    HANGUL_KEYBOARD_TYPE_JASO_SHIN_YET,
+    "3shin-p2-yet",
+    N_("Sebeolsik Shin P2 Yetgeul"),
+    (ucschar*)hangul_keyboard_table_3shin_p2,
+    &hangul_combination_full
+};
+
 
 static const HangulKeyboard* hangul_keyboards[] = {
     &hangul_keyboard_2,
@@ -395,8 +411,8 @@ static const HangulKeyboard* hangul_keyboards[] = {
     &hangul_keyboard_3_p3,
     &hangul_keyboard_3moa_semoe_2016,
     &hangul_keyboard_3sun_2014,
-    &hangul_keyboard_3shin_p,
-    &hangul_keyboard_3shin_p_yet,
+    &hangul_keyboard_3shin_p2,
+    &hangul_keyboard_3shin_p2_yet,
     &hangul_keyboard_3_89,
     &hangul_keyboard_3_91_final_noshift,
     &hangul_keyboard_3_93_yet,
@@ -427,6 +443,8 @@ static const HangulKeyboard* hangul_keyboards[] = {
     &hangul_keyboard_3shin_2012,
     &hangul_keyboard_3shin_2015,
     &hangul_keyboard_3shin_m,
+    &hangul_keyboard_3shin_p,
+    &hangul_keyboard_3shin_p_yet,
 };
 
 // 세벌식 확장모드 글쇠
@@ -486,7 +504,10 @@ static const HangulCombination hangul_combination_3shin_p_yet = {
     (HangulCombinationItem*)hangul_combination_table_full_3shin_p
 };
 
-
+static const HangulCombination hangul_combination_3shin_p2_yet = {
+    N_ELEMENTS(hangul_combination_table_full_3shin_p),
+    (HangulCombinationItem*)hangul_combination_table_full_3shin_p
+};
 
 static const HangulGalmadeuli hangul_replace_2_noshift = {
     N_ELEMENTS(hangul_replace_table_2_noshift),
@@ -553,6 +574,10 @@ static const HangulGalmadeuli hangul_galmadeuli_3shin_p = {
     (HangulGalmadeuliItem*)hangul_galmadeuli_table_3shin_p
 };
 
+static const HangulGalmadeuli hangul_galmadeuli_3shin_p2 = {
+    N_ELEMENTS(hangul_galmadeuli_table_3shin_p2),
+    (HangulGalmadeuliItem*)hangul_galmadeuli_table_3shin_p2
+};
 
 static const HangulKeyboardAddon hangul_keyboard_addon_2noshift = {
     "2noshift", // id
@@ -1081,6 +1106,40 @@ static const HangulKeyboardAddon hangul_keyboard_addon_3shin_p_yet = {
     &hangul_galmadeuli_3shin_p // galmadeuli_addon
 };
 
+static const HangulKeyboardAddon hangul_keyboard_addon_3shin_p2 = {
+    "3shin-p2", // id
+    0x0000, // replace_it // FALSE
+    0x19, // flag // 갈마들이는 필수 기능이라 꺼지면 안된다
+    sebeol_3shin_symbol_key, // symbol_key
+    sebeol_3shin_symbol_value, // symbol_value
+    &hangul_ascii_to_symbol_shin, // (*symbolFunc)(int, int, int)
+    NULL, // yetgeul_key
+    NULL, // yetgeul_value
+    NULL, // (*yetgeulFunc)(int, int, int)
+    sebeol_3_ext_step, // ext_step
+    sebeol_3shin_moeum_key, // moeum_key
+    sebeol_3_moeum_value, // moeum_value
+    NULL, // combination_addon
+    &hangul_galmadeuli_3shin_p2 // galmadeuli_addon
+};
+
+static const HangulKeyboardAddon hangul_keyboard_addon_3shin_p2_yet = {
+    "3shin-p2-yet", // id
+    0x0000, // replace_it // FALSE
+    0x19, // flag // 갈마들이는 필수 기능이라 꺼지면 안된다
+    sebeol_3shin_symbol_key, // symbol_key
+    sebeol_3shin_symbol_value, // symbol_value
+    &hangul_ascii_to_symbol_shin, // (*symbolFunc)(int, int, int)
+    NULL, // yetgeul_key
+    NULL, // yetgeul_value
+    NULL, // (*yetgeulFunc)(int, int, int)
+    sebeol_3_ext_step, // ext_step
+    sebeol_3shin_moeum_key, // moeum_key
+    sebeol_3_moeum_value, // moeum_value
+    &hangul_combination_3shin_p2_yet, // combination_addon
+    &hangul_galmadeuli_3shin_p2 // galmadeuli_addon
+};
+
 
 static const HangulKeyboardAddon* hangul_keyboard_addons[] = {
     &hangul_keyboard_addon_2noshift,
@@ -1114,6 +1173,8 @@ static const HangulKeyboardAddon* hangul_keyboard_addons[] = {
     &hangul_keyboard_addon_3shin_m,
     &hangul_keyboard_addon_3shin_p,
     &hangul_keyboard_addon_3shin_p_yet,
+    &hangul_keyboard_addon_3shin_p2,
+    &hangul_keyboard_addon_3shin_p2_yet,
 };
 
 

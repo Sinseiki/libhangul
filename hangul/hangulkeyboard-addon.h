@@ -1507,6 +1507,51 @@ static const HangulGalmadeuliItem hangul_galmadeuli_table_3shin_p[] = {
     {0x25CB,  0x302E},  /* 0x55 U:  white circle (○) -> 0x302E (〮) */
 };
 
+static const HangulGalmadeuliItem hangul_galmadeuli_table_3shin_p2[] = {
+    /*  */
+    {0x00D7,  0x302F},  /* 0x59 Y:  multiplication (×) -> 0x302F (〯) */
+    /* choseong -> jungseong */
+    {0x1106, 0x1173},  /* choseong mieum <ㅁ> */     /* jungseong eu <ㅡ> */
+    //{0x110b, 0x119e},  /* choseong ieung <ㅇ> */      /* jungseong araea<ㆍ> */
+    {0x110e, 0x116e},  /* choseong chieuch <ㅊ> */      /* jungseong u <ㅜ> */
+    {0x110f, 0x1169},  /* choseong khieukh <ㅋ> */     /* jungseong o <ㅗ> */
+    {0x1111, 0x119e},  /* choseong phieuph <ㅍ> */     /* jungseong araea<ㆍ> */
+    /* jungseong -> jongseong */
+    {0x1161, 0x11c1},  /* jungseong a (ㅏ)           -> jongseong phieuph (ㅍ)   */
+    {0x1162, 0x11b8},  /* jungseong ae  (ㅐ)        -> jongseong pieup  (ㅂ)    */
+    {0x1163, 0x11af},  /* jungseong ya (ㅑ)         ->  jongseong rieul (ㄹ)       */
+    {0x1164, 0x11ba},  /* jungseong yae (ㅒ)        -> jongseong sios (ㅅ)        */
+    {0x1165, 0x11c0},  /* jungseong eo  (ㅓ)        -> jongseong thieuth (ㅌ)    */
+    {0x1166, 0x11a8},  /* jungseong e (ㅔ)          -> jongseong kiyeok (ㄱ)    */
+    {0x1167, 0x11bf},  /* jungseong yeo (ㅕ)        -> jongseong khieukh (ㅋ)     */
+    {0x1168, 0x11ab},  /* jungseong ye (ㅖ)         -> jongseong nieun (ㄴ)       */
+    {0x1169, 0x11bd},  /* jungseong o  (ㅗ)         -> jongseong cieuc (ㅈ)      */
+    {0x116d, 0x11bb},  /* jungseong yo (ㅛ)         -> jongseong ssangsios (ㅆ) */
+    {0x116e, 0x11be},  /* jungseong u  (ㅜ)         -> jongseong chieuch (ㅊ)    */
+    {0x1172, 0x11bc},  /* jungseong yu  (ㅠ)        -> jongseong ieung (ㅇ)      */
+    {0x1173, 0x11ae},  /* jungseong eu  (ㅡ)        -> jongseong tikeut (ㄷ)      */
+    {0x1175, 0x11c2},  /* jungseong i  (ㅣ)         -> jongseong hieuh (ㅎ)     */
+    {0x119e, 0x11b7},  /* jungseong araea (ᆞ)      -> jongseong mieum  (ㅁ)   */
+    /* jongseong -> jungseong */
+    {0x11a8, 0x1166},  /* jongseong kiyeok (ㄱ)        -> jungseong e (ㅔ) */
+    {0x11ab, 0x1168},  /* jongseong nieun (ㄴ)         -> jungseong ye (ㅖ)       */
+    {0x11ae, 0x1173},  /* jongseong tikeut (ㄷ)        -> jungseong eu  (ㅡ)      */
+    {0x11af, 0x1163},  /* jongseong rieul (ㄹ)         -> jungseong ya (ㅑ)       */
+    {0x11b7, 0x119e},  /* jongseong mieum  (ㅁ)        -> jungseong araea (ᆞ)   */
+    {0x11b8, 0x1162},  /* jongseong pieup  (ㅂ)        -> jungseong ae  (ㅐ)     */
+    {0x11ba, 0x1164},  /* jongseong sios (ㅅ)          -> jungseong yae (ㅒ)        */
+    {0x11bb, 0x116d},  /* jongseong ssangsios (ㅆ)     -> jungseong yo (ㅛ)   */
+    {0x11bc, 0x1172},  /* jongseong ieung (ㅇ)         -> jungseong yu  (ㅠ)      */
+    {0x11bd, 0x1169},  /* jongseong cieuc (ㅈ)         -> jungseong o  (ㅗ)      */
+    {0x11be, 0x116e},  /* jongseong chieuch (ㅊ)       -> jungseong u (ㅜ)    */
+    {0x11bf, 0x1167},  /* jongseong khieukh (ㅋ)       -> jungseong yeo (ㅕ)    */
+    {0x11c0, 0x1165},  /* jongseong thieuth (ㅌ)       -> jungseong eo (ㅓ)    */
+    {0x11c1, 0x1161},  /* jongseong phieuph (ㅍ)       -> jungseong a (ㅏ)    */
+    {0x11c2, 0x1175},  /* jongseong hieuh (ㅎ)         -> jungseong i  (ㅣ)     */
+    /*  */
+    {0x25CB,  0x302E},  /* 0x55 U:  white circle (○) -> 0x302E (〮) */
+};
+
 
 static const HangulGalmadeuliItem hangul_galmadeuli_table_3_2014[] = {
     {0x1161, 0x11c0}, /* jungseong a (ㅏ):       jongseong thikeuth (ㅌ)        */

@@ -1968,6 +1968,137 @@ static const ucschar hangul_keyboard_table_3shin_p[] = {
     0x0000      /* 0x7F delete                                       */
 };
 
+static const ucschar hangul_keyboard_table_3shin_p2[] = {
+    0x0000,        /*    0x00    :    null    :        */
+    0x0000,        /*    0x01    :    start of heading    :        */
+    0x0000,        /*    0x02    :    start of text    :        */
+    0x0000,        /*    0x03    :    end of text    :        */
+    0x0000,        /*    0x04    :    end of transmission    :        */
+    0x0000,        /*    0x05    :    enquiry    :        */
+    0x0000,        /*    0x06    :    acknowledge    :        */
+    0x0000,        /*    0x07    :    bell    :        */
+    0x0000,        /*    0x08    :    backspace    :        */
+    0x0000,        /*    0x09    :    character tabulation    :        */
+    0x0000,        /*    0x0A    :    line feed (lf)    :        */
+    0x0000,        /*    0x0B    :    line tabulation    :        */
+    0x0000,        /*    0x0C    :    form feed (ff)    :        */
+    0x0000,        /*    0x0D    :    carriage return (cr)    :        */
+    0x0000,        /*    0x0E    :    shift out    :        */
+    0x0000,        /*    0x0F    :    shift in    :        */
+    0x0000,        /*    0x10    :    data link escape    :        */
+    0x0000,        /*    0x11    :    device control one    :        */
+    0x0000,        /*    0x12    :    device control two    :        */
+    0x0000,        /*    0x13    :    device control three    :        */
+    0x0000,        /*    0x14    :    device control four    :        */
+    0x0000,        /*    0x15    :    negative acknowledge    :        */
+    0x0000,        /*    0x16    :    synchronous idle    :        */
+    0x0000,        /*    0x17    :    end of transmission block    :        */
+    0x0000,        /*    0x18    :    cancel    :        */
+    0x0000,        /*    0x19    :    end of medium    :        */
+    0x0000,        /*    0x1A    :    substitute    :        */
+    0x0000,        /*    0x1B    :    escape    :        */
+    0x0000,        /*    0x1C    :    information separator four    :        */
+    0x0000,        /*    0x1D    :    information separator three    :        */
+    0x0000,        /*    0x1E    :    information separator two    :        */
+    0x0000,        /*    0x1F    :    information separator one    :        */
+    0x0000,        /*    0x20    :    space    :        */
+    0x0021,	/* 0x21 exclam */
+    0x002f,	/* 0x22 quotedbl: slash */
+    0x0023,	/* 0x23 numbersign */
+    0x0024,	/* 0x24 dollar */
+    0x0025,	/* 0x25 percent */
+    0x0026,	/* 0x26 ampersand */
+    0x1110,	/* 0x27 apostrophe: choseong tieuh */
+    0x0028,	/* 0x28 parenleft */
+    0x0029,	/* 0x29 parenright */
+    0x002a,	/* 0x2A asterisk */
+    0x002b,	/* 0x2B plus */
+    0x002c,	/* 0x2C comma */
+    0x002d,	/* 0x2D minus */
+    0x002e,	/* 0x2E period */
+    0x110f,	/* 0x2F slash: choseong kieuk */
+    0x0030,	/* 0x30 0 */
+    0x0031,	/* 0x31 1 */
+    0x0032,	/* 0x32 2 */
+    0x0033,	/* 0x33 3 */
+    0x0034,	/* 0x34 4 */
+    0x0035,	/* 0x35 5 */
+    0x0036,	/* 0x36 6 */
+    0x0037,	/* 0x37 7 */
+    0x0038,	/* 0x38 8 */
+    0x0039,	/* 0x39 9 */
+    0x003a,	/* 0x3A colon */
+    0x1107,	/* 0x3B semicolon: choseong bieub */
+    0x003c,	/* 0x3C less */
+    0x003d,	/* 0x3D equal */
+    0x003e,	/* 0x3E greater */
+    0x003f,	/* 0x3F question */
+    0x0040,	/* 0x40 at */
+    0x1172,	/* 0x41 A: jungseong yu */
+    0x116e,	/* 0x42 B: jungseong u */
+    0x1166,	/* 0x43 C: jungseong e */
+    0x1175,	/* 0x44 D: jungseong i */
+    0x1162,	/* 0x45 E: jungseong ae */
+    0x1161,	/* 0x46 F: jungseong a */
+    0x1173,	/* 0x47 G: jungseong eu */
+    0x25A1,	/* 0x48 H: white squre */
+    0x1173,	/* 0x49 I: jungseong eu */
+    0x0027,	/* 0x4A J: apostrophe */
+    0x00B7,	/* 0x4B K: middle dot */
+    0x003b,	/* 0x4C L: semicolon */
+    0x0022,	/* 0x4D M: quotatioin mark */
+    0x2015,	/* 0x4E N: horizontal bar */
+    0x116e,	/* 0x4F O: jungseong u */
+    0x119e,	/* 0x50 P: jungseong araea */
+    0x1164,	/* 0x51 Q: jungseong yae */
+    0x1165,	/* 0x52 R: jungseong eo */
+    0x1168,	/* 0x53 S: jungseong ye */
+    0x1167,	/* 0x54 T: jungseong yeo */
+    0x25CB,	/* 0x55 U: white circle */
+    0x1169,	/* 0x56 V: jungseong o */
+    0x1163,	/* 0x57 W: jungseong ya */
+    0x116d,	/* 0x58 X: jungseong yo */
+    0x00D7,	/* 0x59 Y: multiplication */
+    0x119e,	/* 0x5A Z: jungseong araea */
+    0x005b,	/* 0x5B bracketleft */
+    0x005c,	/* 0x5C backslash */
+    0x005d,	/* 0x5D bracketright */
+    0x005e,	/* 0x5E asciicircum */
+    0x005f,	/* 0x5F underscore */
+    0x0060,	/* 0x60 quoteleft */
+    0x11bc,	/* 0x61 a: jongseong ieung */
+    0x11be,	/* 0x62 b: jongseong chieuch */
+    0x11a8,	/* 0x63 c: jongseong gieug */
+    0x11c2,	/* 0x64 d: jongseong hieuh */
+    0x11b8,	/* 0x65 e: jongseong bieub */
+    0x11c1,	/* 0x66 f: jongseong pieup */
+    0x11ae,	/* 0x67 g: jongseong dieud */
+    0x1102,	/* 0x68 h: choseong nieun */
+    0x1106,	/* 0x69 i: choseong mieum */
+    0x110b,	/* 0x6A j: choseong ieung */
+    0x1100,	/* 0x6B k: choseong gieug */
+    0x110c,	/* 0x6C l: choseong jieuc */
+    0x1112,	/* 0x6D m: choseong hieuh */
+    0x1109,	/* 0x6E n: choseong sieus */
+    0x110e,	/* 0x6F o: choseong chieuch */
+    0x1111,	/* 0x70 p: choseong pieup */
+    0x11ba,	/* 0x71 q: jongseong sieus */
+    0x11c0,	/* 0x72 r: jongseong tieut */
+    0x11ab,	/* 0x73 s: jongseong nieun */
+    0x11bf,	/* 0x74 t: jongseong kieuk */
+    0x1103,	/* 0x75 u: choseong dieud */
+    0x11bd,	/* 0x76 v: jongseong jieuj */
+    0x11af,	/* 0x77 w: jongseong lieul */
+    0x11bb,	/* 0x78 x: jongseong ssangsieus */
+    0x1105,	/* 0x79 y: choseong lieul */
+    0x11b7,	/* 0x7A z: jongseong mieum */
+    0x007b,	/* 0x7B braceleft */
+    0x007c,	/* 0x7C bar */
+    0x007d,	/* 0x7D braceright */
+    0x007e,  /* 0x7E asciitilde */
+    0x0000      /* 0x7F delete                                       */
+};
+
 
 static const ucschar hangul_keyboard_table_3_2011[] = {
     0x0000,     /* 0x00 null                                         */
