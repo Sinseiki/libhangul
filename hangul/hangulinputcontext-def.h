@@ -971,7 +971,7 @@ static const HangulKeyboardAddon hangul_keyboard_addon_3moa_semoe_2016 = {
 static const HangulKeyboardAddon hangul_keyboard_addon_3moa_semoe_2017 = {
     "3moa-semoe-2017", // id
     0x0000, // replace_it // FALSE
-    0x05, // flag
+    0x01, // flag
     sebeol_3moa_symbol_key, // symbol_key
     NULL, // symbol_value
     &hangul_ascii_to_symbol_semoe, // (*symbolFunc)(int, int, int)
