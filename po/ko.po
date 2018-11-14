@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libhangul 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-11 17:35+0900\n"
-"PO-Revision-Date: 2017-04-11 17:36+0900\n"
+"POT-Creation-Date: 2018-11-14 11:46+0900\n"
+"PO-Revision-Date: 2018-11-14 11:47+0900\n"
 "Last-Translator: \n"
 "Language-Team: Korean <ko@li.org>\n"
 "Language: ko\n"
@@ -19,174 +19,178 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../hangul/hangulinputcontext-def.h:76
+#: ../hangul/hangulinputcontext-def.h:82
 msgid "Dubeolsik KSX 5002"
 msgstr "두벌식 표준 (KSX 5002)"
 
-#: ../hangul/hangulinputcontext-def.h:84
+#: ../hangul/hangulinputcontext-def.h:90
 msgid "Dubeolsik Noshift"
 msgstr "두벌식 순아래"
 
-#: ../hangul/hangulinputcontext-def.h:92
+#: ../hangul/hangulinputcontext-def.h:98
 msgid "Dubeolsik Yetgeul"
 msgstr "두벌식 옛글"
 
-#: ../hangul/hangulinputcontext-def.h:100
+#: ../hangul/hangulinputcontext-def.h:106
 msgid "Dubeolsik North 9256"
 msgstr "두벌식 국규 9256"
 
-#: ../hangul/hangulinputcontext-def.h:108
+#: ../hangul/hangulinputcontext-def.h:114
 msgid "Sebeolsik Dubeol Layout"
 msgstr "세벌식 두벌자판"
 
-#: ../hangul/hangulinputcontext-def.h:116
+#: ../hangul/hangulinputcontext-def.h:122
 msgid "Sebeolsik 3-89"
 msgstr "세벌식 3-89"
 
-#: ../hangul/hangulinputcontext-def.h:124
+#: ../hangul/hangulinputcontext-def.h:130
 msgid "Sebeolsik 3-90"
 msgstr "세벌식 3-90"
 
-#: ../hangul/hangulinputcontext-def.h:132
+#: ../hangul/hangulinputcontext-def.h:138
 msgid "Sebeolsik 3-91 Final"
 msgstr "세벌식 3-91 최종"
 
-#: ../hangul/hangulinputcontext-def.h:140
+#: ../hangul/hangulinputcontext-def.h:146
 msgid "Sebeolsik 3-91 Final Noshift"
 msgstr "세벌식 3-91 최종 순아래"
 
-#: ../hangul/hangulinputcontext-def.h:148
+#: ../hangul/hangulinputcontext-def.h:154
 msgid "Sebeolsik Noshift 1990"
 msgstr "세벌식 순아래 1990"
 
-#: ../hangul/hangulinputcontext-def.h:156
+#: ../hangul/hangulinputcontext-def.h:162
 msgid "Sebeolsik 3-93 Yetgeul"
 msgstr "세벌식 3-93 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:164
+#: ../hangul/hangulinputcontext-def.h:170
 msgid "Romaja"
 msgstr "로마자"
 
-#: ../hangul/hangulinputcontext-def.h:172
+#: ../hangul/hangulinputcontext-def.h:178
 msgid "Ahnmatae"
 msgstr "안마태"
 
-#: ../hangul/hangulinputcontext-def.h:180
+#: ../hangul/hangulinputcontext-def.h:186
 msgid "Sebeolsik 3Ahnmatae"
 msgstr "세벌식 안마태"
 
-#: ../hangul/hangulinputcontext-def.h:188
+#: ../hangul/hangulinputcontext-def.h:194
 msgid "Sebeolsik 3-2011"
 msgstr "세벌식 3-2011"
 
-#: ../hangul/hangulinputcontext-def.h:196
+#: ../hangul/hangulinputcontext-def.h:202
 msgid "Sebeolsik 3-2011 Yetgeul"
 msgstr "세벌식 3-2011 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:204
+#: ../hangul/hangulinputcontext-def.h:210
 msgid "Sebeolsik 3-2012"
 msgstr "세벌식 3-2012"
 
-#: ../hangul/hangulinputcontext-def.h:212
+#: ../hangul/hangulinputcontext-def.h:218
 msgid "Sebeolsik 3-2012 Yetgeul"
 msgstr "세벌식 3-2012 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:220
+#: ../hangul/hangulinputcontext-def.h:226
 msgid "Sebeolsik 3-2014"
 msgstr "세벌식 3-2014"
 
-#: ../hangul/hangulinputcontext-def.h:228
+#: ../hangul/hangulinputcontext-def.h:234
 msgid "Sebeolsik 3-2014 Yetgeul"
 msgstr "세벌식 3-2014 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:236
+#: ../hangul/hangulinputcontext-def.h:242
 msgid "Sebeolsik 3-2015"
 msgstr "세벌식 3-2015"
 
-#: ../hangul/hangulinputcontext-def.h:244
+#: ../hangul/hangulinputcontext-def.h:250
 msgid "Sebeolsik 3-2015 Yetgeul"
 msgstr "세벌식 3-2015 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:252
+#: ../hangul/hangulinputcontext-def.h:258
 msgid "Sebeolsik 3-2015M"
 msgstr "세벌식 3-2015M"
 
-#: ../hangul/hangulinputcontext-def.h:260
+#: ../hangul/hangulinputcontext-def.h:266
 msgid "Sebeolsik 3-2015P"
 msgstr "세벌식 3-2015P"
 
-#: ../hangul/hangulinputcontext-def.h:268
+#: ../hangul/hangulinputcontext-def.h:274
 msgid "Sebeolsik 3-2015P Yetgeul"
 msgstr "세벌식 3-2015P 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:276
+#: ../hangul/hangulinputcontext-def.h:282
 msgid "Sebeolsik 3-P2"
 msgstr "세벌식 3-P2"
 
-#: ../hangul/hangulinputcontext-def.h:284
+#: ../hangul/hangulinputcontext-def.h:290
 msgid "Sebeolsik 3-P3"
 msgstr "세벌식 3-P3"
 
-#: ../hangul/hangulinputcontext-def.h:292
+#: ../hangul/hangulinputcontext-def.h:298
 msgid "Sebeolsik 3-14 Proposal"
 msgstr "세벌식 3-14 표준제안 (연구)"
 
-#: ../hangul/hangulinputcontext-def.h:300
+#: ../hangul/hangulinputcontext-def.h:306
 msgid "Sebeolsik Semoe 2014"
 msgstr "세벌식 세모이 2014"
 
-#: ../hangul/hangulinputcontext-def.h:308
+#: ../hangul/hangulinputcontext-def.h:314
 msgid "Sebeolsik Semoe 2015"
 msgstr "세벌식 세모이 2015"
 
-#: ../hangul/hangulinputcontext-def.h:316
+#: ../hangul/hangulinputcontext-def.h:322
 msgid "Sebeolsik Semoe 2016"
 msgstr "세벌식 세모이 2016"
 
-#: ../hangul/hangulinputcontext-def.h:324
+#: ../hangul/hangulinputcontext-def.h:330
 msgid "Sebeolsik Semoe 2017"
-msgstr "세벌식 세모이"
+msgstr "세벌식 세모이 2017"
 
-#: ../hangul/hangulinputcontext-def.h:332
+#: ../hangul/hangulinputcontext-def.h:338
+msgid "Sebeolsik Semoe 2018"
+msgstr "세벌식 세모이 2018"
+
+#: ../hangul/hangulinputcontext-def.h:346
 msgid "Sebeolsik Noshift 2014"
 msgstr "세벌식 순아래 2014 (연구)"
 
-#: ../hangul/hangulinputcontext-def.h:340
+#: ../hangul/hangulinputcontext-def.h:354
 msgid "Sebeolsik 3Gimguk-38A Yetgeul"
 msgstr "세벌식 김국 38A 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:348
+#: ../hangul/hangulinputcontext-def.h:362
 msgid "Sebeolsik Shin 1995"
 msgstr "신세벌식 1995"
 
-#: ../hangul/hangulinputcontext-def.h:356
+#: ../hangul/hangulinputcontext-def.h:370
 msgid "Sebeolsik Shin 2003"
 msgstr "신세벌식 2003"
 
-#: ../hangul/hangulinputcontext-def.h:364
+#: ../hangul/hangulinputcontext-def.h:378
 msgid "Sebeolsik Shin 2012"
 msgstr "신세벌식 2012"
 
-#: ../hangul/hangulinputcontext-def.h:372
+#: ../hangul/hangulinputcontext-def.h:386
 msgid "Sebeolsik Shin 2015"
 msgstr "신세벌식 2015"
 
-#: ../hangul/hangulinputcontext-def.h:380
+#: ../hangul/hangulinputcontext-def.h:394
 msgid "Sebeolsik Shin M"
 msgstr "신세벌식 M"
 
-#: ../hangul/hangulinputcontext-def.h:388
+#: ../hangul/hangulinputcontext-def.h:402
 msgid "Sebeolsik Shin P"
 msgstr "신세벌식 P"
 
-#: ../hangul/hangulinputcontext-def.h:396
+#: ../hangul/hangulinputcontext-def.h:410
 msgid "Sebeolsik Shin P Yetgeul"
 msgstr "신세벌식 P 옛한글"
 
-#: ../hangul/hangulinputcontext-def.h:404
+#: ../hangul/hangulinputcontext-def.h:418
 msgid "Sebeolsik Shin P2"
 msgstr "신세벌식 P2"
 
-#: ../hangul/hangulinputcontext-def.h:412
+#: ../hangul/hangulinputcontext-def.h:426
 msgid "Sebeolsik Shin P2 Yetgeul"
 msgstr "신세벌식 P2 옛한글"
